@@ -1,0 +1,42 @@
+{
+  "name": "node_api_skeleton",
+  "version": "1.0.0",
+  "description": "Node Api Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalohab/node_api_skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzalohab/node_api_skeleton/issues"
+  },
+  "homepage": "https://github.com/gonzalohab/node_api_skeleton#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "semi": 0,
+      "indent": [
+        "error",
+        4
+      ]
+    }
+  }
+}
